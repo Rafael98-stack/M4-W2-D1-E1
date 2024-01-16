@@ -18,7 +18,7 @@ int posizione;
     public void getScanner(){
 
         System.out.println("////ARRAY////");
-
+        
            System.out.println("Inserisci un numero, relativo alla posizione dell'Array:");
         System.out.println("I numeri sono: "+ Arrays.asList(this.Arr));
         Scanner scanner = new Scanner(System.in);
@@ -28,7 +28,7 @@ int posizione;
         this.Arr[inserisci]=0;
         System.out.println("Che numero vuoi inserire in quella posizione?");
         int cambiamento = scanner.nextInt();
-        if(cambiamento <=0 || cambiamento>=10) {
+        if(cambiamento <=0 || cambiamento>10) {
             System.out.println("Numero non valido");
             getScanner();
         } else {

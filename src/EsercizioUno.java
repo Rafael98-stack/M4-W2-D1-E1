@@ -7,6 +7,7 @@ public class EsercizioUno {
         System.out.printf("Ciao");
 Array5Interi arr = new Array5Interi();
 arr.getScanner();
+
     }
 
 }
